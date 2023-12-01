@@ -70,12 +70,12 @@ body {
   transition: width 1s, height 1s, transform 1s;
   /* -webkit-box-reflect: right; */
 }
-.left h1:hover {
+/* .left h1:hover {
   color: #d4af37;
   cursor: pointer;
   transform: rotate(360deg);
-  /* opacity: 1000%; */
-}
+  /* opacity: 1000%; 
+} */
 .left p {
   font-size: 16px;
   width: 75%;
@@ -92,6 +92,7 @@ body {
   border: none;
   border-radius: 50px;
   border-top-left-radius: 0px;
+  margin-top: 10px;
 }
 .left button:hover{
   transition: transform 0.5s;
@@ -128,7 +129,9 @@ body {
 }
 .elem img:hover {
   transform: scale(1.1419);
+  /* transform: scale(1.5); */
   z-index: 1;
+  border-radius: 10px;
 }
 .elem h4 {
   position: absolute;
@@ -151,6 +154,7 @@ body {
   border-radius: 10px;
   font-size: 14px;
   border-bottom-right-radius: 0px;
+  z-index: 2;
 }
 .para1 {
   position: absolute;
