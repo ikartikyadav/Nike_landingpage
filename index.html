@@ -12,27 +12,35 @@
       referrerpolicy="no-referrer"
     />
     <link rel="stylesheet" href="style.css" />
-    <link rel="icon" type="image/x-icon" href="./favico-fotor-20231124143536.ico">
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="./favico-fotor-20231124143536.ico"
+    />
   </head>
   <body>
     <div class="main">
       <div class="nav">
         <div class="nav_part1">
-          <img
-            src="./nike-logo-removebg-preview.png"
-            alt="Nike_Official_logo"
-          />
+          <img src="nike-logo-removebg-preview (1).png"/>
           <h4>Home</h4>
           <h4>Men</h4>
           <h4>Women</h4>
           <h4>Collection</h4>
           <h4>Contact</h4>
+
+          <!-- <input type="cheakbox" onclick="myFunction()"> -->
         </div>
+        <label class="switch">
+          <input type="checkbox" onclick="myFunction()" />
+          <span class="slider round"></span>
+        </label>
         <div class="nav_part2">
           <i class="fa-solid fa-magnifying-glass"></i>
           <i class="fa-solid fa-cart-shopping"></i>
           <i class="fa-solid fa-bars"></i>
         </div>
+        
       </div>
       <div class="content">
         <div class="left">
@@ -68,7 +76,7 @@
             <img src="./shoes4.webp" alt="" />
             <h4>Nike InfinityRN4</h4>
             <h5>Women's Road Running Shoes</h5>
-          <p class="para1">$ 999</p>
+            <p class="para1">$ 999</p>
           </div>
           <div class="elem">
             <img src="./shoes5.jpeg" alt="" />
@@ -79,5 +87,12 @@
         </div>
       </div>
     </div>
+    <script>
+      function myFunction() {
+        var element = document.body;
+        element.classList.toggle("dark-mode");
+    
+      }
+    </script>
   </body>
 </html>
